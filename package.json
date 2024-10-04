@@ -1,0 +1,23 @@
+{
+  "name": "apiciudadesdepartamentocolombia",
+  "version": "1.0.0",
+  "description": "Microservicio para listar ciudades de Colombia",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "build": "tsc",
+    "dev": "ts-node-dev src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/diagnostics-channel": "^4.2.0",
+    "fastify": "^4.17.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.0"
+  }
+}
