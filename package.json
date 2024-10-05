@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@fastify/diagnostics-channel": "^4.2.0",
+    "@firebasegen/default": "file:generated/javascript/default",
     "fastify": "^4.17.0"
   },
   "devDependencies": {
